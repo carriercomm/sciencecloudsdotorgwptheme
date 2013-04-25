@@ -1,0 +1,63 @@
+.jumbotron {
+    /*background: linear-gradient(45deg, #0687F5 0%, #4DBCE9 100%) repeat scroll 0% 0% transparent;*/
+    background: linear-gradient(45deg, #033577 0%, #4DBCE9 100%) repeat scroll 0% 0% transparent;
+    position: relative;
+    margin-top: -60px;
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+
+.jumbotron .container {
+    position: relative;
+    z-index: 2;
+}
+.jumbotron:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: url(./images/cloud.png) no-repeat right center;
+    background-size: 200px;
+    opacity: .4;
+}
+
+.masthead h1 {
+    color: #FFFFFF;
+    text-shadow:0px 1px 3px rgba(0, 0, 0, 0.7);
+    font-size: 90px;
+    line-height: 120px;
+    letter-spacing: -2px;
+    font-weight: bold;
+}
+
+ul#homepage-header-links {
+    margin: 0;
+}
+
+#homepage-header-links li {
+    display: inline;
+    margin-right: 15px;
+}
+
+#homepage-header-links li a {
+    font-size: 18px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-shadow:0px 1px 3px rgba(0, 0, 0, 0.7);
+}
+
+div.navbar-inner {
+    background: linear-gradient(45deg, #033577 0%, #4DBCE9 100%) repeat scroll 0% 0% transparent;
+}
+
+.navbar .brand#logo {
+    color: #FFFFFF !important;
+}
+
+.navbar .nav > li > a {
+    text-shadow: 0px 1px 0px #000000 !important;
+    font-weight: bold;
+}
