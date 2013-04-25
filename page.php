@@ -15,7 +15,7 @@
             }
 ?>
 
-        <div class="container-fluid">
+        <div class="container-fluid" id="outer-container">
 			<div id="content" class="clearfix row-fluid">
 			
 				<div id="main" class="span8 clearfix" role="main">
