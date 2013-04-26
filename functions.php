@@ -470,10 +470,12 @@ function theme_styles()
     wp_register_style( 'bootstrap', get_template_directory_uri() . '/library/css/bootstrap.css', array(), '1.0', 'all' );
     wp_register_style( 'bootstrap-responsive', get_template_directory_uri() . '/library/css/responsive.css', array(), '1.0', 'all' );
     wp_register_style( 'wp-bootstrap', get_template_directory_uri() . '/style.css', array(), '1.0', 'all' );
+    wp_register_style( 'scienceclouds', get_template_directory_uri() . '/library/css/scienceclouds.css', array(), '1.0', 'all' );
     
     wp_enqueue_style( 'bootstrap' );
     wp_enqueue_style( 'bootstrap-responsive' );
     wp_enqueue_style( 'wp-bootstrap');
+    wp_enqueue_style( 'scienceclouds');
 }
 add_action('wp_enqueue_scripts', 'theme_styles');
 

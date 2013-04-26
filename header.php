@@ -43,7 +43,7 @@
 
   		<link rel="stylesheet/less" type="text/css" href="<?php echo get_template_directory_uri(); ?>/less/bootstrap.less">
   		<link rel="stylesheet/less" type="text/css" href="<?php echo get_template_directory_uri(); ?>/less/responsive.less">
-        <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/scienceclouds.css" />
+        <link rel="stylesheet/less" type="text/css" href="<?php echo get_template_directory_uri(); ?>/less/scienceclouds.less" />
 
 		<!-- wordpress head functions -->
 		<?php wp_head(); ?>

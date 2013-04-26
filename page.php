@@ -3,7 +3,7 @@
         <?php if (single_post_title('', FALSE) == 'Home' || single_post_title('', FALSE) == '') {
         ?>
         <div class="jumbotron masthead">
-            <div class="container">
+            <div class="container-fluid">
                 <h1><?php bloginfo('title'); ?></h1>
 
                 <ul id="homepage-header-links">

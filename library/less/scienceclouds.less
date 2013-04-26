@@ -1,11 +1,19 @@
+@import "mixins.less";
+
+@nimbus-dark: #6282AE;
+@nimbus-light: #BAD1F4;
+
+@patrick-light: #4DBCE9;
+@patrick-dark: #033577;
+
+
 .jumbotron {
-    /*background: linear-gradient(45deg, #0687F5 0%, #4DBCE9 100%) repeat scroll 0% 0% transparent;*/
-    background: linear-gradient(45deg, #033577 0%, #4DBCE9 100%) repeat scroll 0% 0% transparent;
     position: relative;
     margin-top: -60px;
     padding-top: 110px;
     padding-bottom: 20px;
     box-shadow: 0px -1px 0px rgba(0, 0, 0, 0.4) inset, 0px 1px 10px rgba(0, 0, 0, 0.1);
+    #gradient > .directional(@patrick-dark, @nimbus-light, 45deg);
 }
 
 .jumbotron .container {
@@ -20,7 +28,7 @@
     right: 0;
     bottom: 0;
     left: 0;
-    background: url(./images/cloud.png) no-repeat right center;
+    background: url(../../images/cloud.png) no-repeat right center;
     background-size: 200px;
     opacity: .4;
 }
@@ -51,7 +59,7 @@ ul#homepage-header-links {
 }
 
 div.navbar-inner {
-    background: linear-gradient(45deg, #033577 0%, #4DBCE9 100%) repeat scroll 0% 0% transparent;
+    #gradient > .directional(@patrick-dark, @nimbus-light, 45deg);
 }
 
 .navbar .brand#logo {
@@ -61,4 +69,32 @@ div.navbar-inner {
 .navbar .nav > li > a {
     text-shadow: 0px 1px 0px #000000 !important;
     font-weight: bold;
+}
+
+/* Phone-specific */
+@media (max-width: 767px) {
+    body {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    .jumbotron {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .masthead h1 {
+        font-size: 60px;
+        line-height: 55px;
+        letter-spacing: -2px;
+    }
+
+    #outer-container {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    #sidebar1 {
+        display: none;
+    }
 }
