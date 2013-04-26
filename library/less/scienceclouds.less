@@ -6,6 +6,12 @@
 @patrick-light: #4DBCE9;
 @patrick-dark: #033577;
 
+@subdued: #AAA;
+
+body {
+    font-size: 16px;
+}
+
 
 .jumbotron {
     position: relative;
@@ -16,10 +22,11 @@
     #gradient > .directional(@patrick-dark, @nimbus-light, 45deg);
 }
 
-.jumbotron .container {
+.jumbotron .container-fluid {
     position: relative;
     z-index: 2;
 }
+
 .jumbotron:after {
     content: '';
     display: block;
@@ -33,6 +40,7 @@
     opacity: .4;
 }
 
+
 .masthead h1 {
     color: #FFFFFF;
     text-shadow:0px 1px 3px rgba(0, 0, 0, 0.7);
@@ -44,6 +52,7 @@
 
 ul#homepage-header-links {
     margin: 0;
+    z-index: 10;
 }
 
 #homepage-header-links li {
@@ -69,6 +78,17 @@ div.navbar-inner {
 .navbar .nav > li > a {
     text-shadow: 0px 1px 0px #000000 !important;
     font-weight: bold;
+    color: #FFFFFF;
+}
+
+
+.navbar .nav > li > a:hover {
+    text-decoration: underline;
+}
+
+.attribution {
+    font-size: 14px;
+    color: @subdued;
 }
 
 /* Phone-specific */
