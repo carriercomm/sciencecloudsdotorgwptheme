@@ -1,6 +1,8 @@
 <?php
 /*
 Template Name: Homepage
+
+NOT USED IN SCIENCECLOUDS
 */
 ?>
 

@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 			
-        <?php if (single_post_title('', FALSE) == 'Home' || single_post_title('', FALSE) == '') {
+        <?php if (is_front_page()) {
         ?>
         <div class="jumbotron masthead">
             <div class="container-fluid">
@@ -18,7 +18,7 @@
         <div class="container-fluid" id="outer-container">
 			<div id="content" class="clearfix row-fluid">
 			
-				<div id="main" class="span8 clearfix" role="main">
+				<div id="main" class="span10 clearfix" role="main">
 
 					<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 					
@@ -62,7 +62,10 @@
 			
 				</div> <!-- end #main -->
     
-				<?php get_sidebar(); // sidebar 1 ?>
+                <?php if (is_front_page('', FALSE)) {
+				    get_sidebar(); // sidebar 1
+                }
+                ?>
     
 			</div> <!-- end #content -->
 

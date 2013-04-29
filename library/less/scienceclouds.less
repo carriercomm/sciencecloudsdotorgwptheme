@@ -3,13 +3,29 @@
 @nimbus-dark: #6282AE;
 @nimbus-light: #BAD1F4;
 
-@patrick-light: #4DBCE9;
 @patrick-dark: #033577;
+@patrick-light: #4DBCE9;
+
+@pierre-dark: #60975F;
+@pierre-light: #9ECC9D;
+
+@pumpkin-dark: #e67e22;
+@pumpkin-light: #d35400;
+
+@red-dark: #c0392b;
+@red-light: #e74c3c;
+
+@primary-dark: @pierre-dark;
+@primary-light: @pierre-light;
 
 @subdued: #AAA;
 
 body {
     font-size: 16px;
+}
+
+a {
+    color: @primary-dark;
 }
 
 
@@ -19,7 +35,7 @@ body {
     padding-top: 110px;
     padding-bottom: 20px;
     box-shadow: 0px -1px 0px rgba(0, 0, 0, 0.4) inset, 0px 1px 10px rgba(0, 0, 0, 0.1);
-    #gradient > .directional(@patrick-dark, @nimbus-light, 45deg);
+    #gradient > .directional(@primary-dark, @primary-light, 45deg);
 }
 
 .jumbotron .container-fluid {
@@ -48,6 +64,7 @@ body {
     line-height: 120px;
     letter-spacing: -2px;
     font-weight: bold;
+    opacity: .9;
 }
 
 ul#homepage-header-links {
@@ -68,7 +85,7 @@ ul#homepage-header-links {
 }
 
 div.navbar-inner {
-    #gradient > .directional(@patrick-dark, @nimbus-light, 45deg);
+    #gradient > .directional(@primary-dark, @primary-light, 45deg);
 }
 
 .navbar .brand#logo {
@@ -86,9 +103,19 @@ div.navbar-inner {
     text-decoration: underline;
 }
 
+.main {
+    padding-left: 20px;
+}
+
 .attribution {
     font-size: 14px;
     color: @subdued;
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+    .row {
+        margin-left: 0px;
+    }
 }
 
 /* Phone-specific */
