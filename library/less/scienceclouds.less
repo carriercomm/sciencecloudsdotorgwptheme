@@ -16,6 +16,7 @@
 @red-light: #e74c3c;
 
 @primary-dark: @pierre-dark;
+@primary-darker: darken(@primary-dark, 10%);
 @primary-light: @pierre-light;
 
 @subdued: #AAA;
@@ -28,6 +29,9 @@ a {
     color: @primary-dark;
 }
 
+a:focus, a:hover {
+    color: @primary-darker;
+}
 
 .jumbotron {
     position: relative;
@@ -100,6 +104,7 @@ div.navbar-inner {
 
 
 .navbar .nav > li > a:hover {
+    color: #FFFFFF;
     text-decoration: underline;
 }
 
@@ -110,6 +115,10 @@ div.navbar-inner {
 .attribution {
     font-size: 14px;
     color: @subdued;
+}
+
+.row {
+    margin-left: 0px;
 }
 
 @media (min-width: 768px) and (max-width: 979px) {
