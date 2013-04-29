@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.2 r9819"
+   sodipodi:docname="scienceclouds-atom.svg">
+  <defs
+     id="defs4"><filter
+   id="filter3319"
+   inkscape:label="Invert"
+   x="0"
+   y="0"
+   width="1"
+   height="1"
+   inkscape:menu="Color"
+   inkscape:menu-tooltip="Invert colors"
+   color-interpolation-filters="sRGB">
+  <feColorMatrix
+     id="feColorMatrix3321"
+     type="saturate"
+     values="1"
+     result="fbSourceGraphic" />
+  <feColorMatrix
+     id="feColorMatrix3323"
+     in="fbSourceGraphic"
+     values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 " />
+</filter>
+<filter
+   id="filter3426"
+   inkscape:label="Invert"
+   x="0"
+   y="0"
+   width="1"
+   height="1"
+   inkscape:menu="Color"
+   inkscape:menu-tooltip="Invert colors"
+   color-interpolation-filters="sRGB">
+  <feColorMatrix
+     id="feColorMatrix3428"
+     type="saturate"
+     values="1"
+     result="fbSourceGraphic" />
+  <feColorMatrix
+     id="feColorMatrix3430"
+     in="fbSourceGraphic"
+     values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 " />
+</filter>
+
+	
+
+
+		
+		
+		
+		
+		
+		
+	</defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.91442437"
+     inkscape:cx="318.97832"
+     inkscape:cy="719.66246"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:window-width="1280"
+     inkscape:window-height="756"
+     inkscape:window-x="4"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0">
+    <sodipodi:guide
+       orientation="0,1"
+       position="295.47277,611.2452"
+       id="guide3719" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="481.92887,517.26531"
+       id="guide4574" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="340.95904,382.68611"
+       id="guide4576" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="390.48263,389.68518"
+       id="guide4578" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="313.23497,379.77273"
+       id="guide4582" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke-width:4.4000001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect3771"
+       width="473.65863"
+       height="316.52426"
+       x="109.01666"
+       y="420.81732" />
+    <path
+       style="stroke-width:0.89999998000000003;stroke-miterlimit:4;stroke-dasharray:none;fill:#ffffff;fill-opacity:1"
+       d="m 405.50038,531.9737 c -14.81107,0.32952 -28.91949,9.18128 -36,22.25 -12.4022,-8.56027 -31.36424,-2.04468 -35.71875,12.375 -1.84898,3.54379 0.47736,9.21905 -4.89723,9.49639 -18.41194,6.88729 -27.44527,30.61664 -17.88402,48.03486 6.4351,13.51903 22.24054,20.79612 37.03125,18.96875 32.26014,-0.26536 64.6752,0.52113 96.84375,-0.375 20.15541,-2.57217 34.35265,-24.60314 28.15625,-44.125 -3.14681,-11.27758 -12.34184,-20.40348 -23.5625,-23.71875 0.74238,-23.51177 -20.40484,-44.22687 -43.96875,-42.90625 z m 1.40625,8.28125 c 19.7362,-0.57921 36.77585,18.47788 34.09375,38 0.53732,5.43682 7.69712,3.85108 11,6.625 14.44349,6.99254 18.84394,27.93818 8.1878,40.12462 -6.83077,9.0519 -18.96978,10.95395 -29.6253,9.87538 -30.63833,-0.18767 -61.32903,0.36188 -91.9375,-0.25 -16.48007,-1.52423 -27.84658,-20.48952 -21.4375,-35.71875 3.29401,-9.4155 12.46776,-15.60504 21.9375,-17.25 4.21527,-2.70436 0.0635,-8.84795 2.65625,-12.78125 3.38812,-10.64004 18.91074,-13.78013 26.09375,-5.125 2.88499,3.33897 7.80078,0.17689 8.03125,-3.6875 5.42634,-11.88289 17.88141,-19.93735 31,-19.8125 z"
+       id="cloud2"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/Users/patricka/Desktop/sciencecloudslogo-atom.png"
+       inkscape:export-xdpi="155.49376"
+       inkscape:export-ydpi="155.49376" />
+    <circle
+       style="filter:url(#filter3319)"
+       d="m 56,52 c 0,3.313708 -2.686292,6 -6,6 -3.313708,0 -6,-2.686292 -6,-6 0,-3.313708 2.686292,-6 6,-6 3.313708,0 6,2.686292 6,6 z"
+       sodipodi:ry="6"
+       sodipodi:rx="6"
+       sodipodi:cy="52"
+       sodipodi:cx="50"
+       cx="50"
+       cy="52"
+       r="6"
+       id="circle3290"
+       transform="matrix(1.1242248,0,0,1.1242248,229.48762,526.10307)"
+       inkscape:export-filename="/Users/patricka/Desktop/sciencecloudslogo-atom.png"
+       inkscape:export-xdpi="155.49376"
+       inkscape:export-ydpi="155.49376" />
+    <path
+       style="filter:url(#filter3319)"
+       inkscape:connector-curvature="0"
+       d="M 50,12 C 57.732,12 64,29.908 64,52 64,74.092 57.732,92 50,92 42.268,92 36,74.092 36,52 36,29.908 42.268,12 50,12 M 50,8 C 38.183,8 32,30.135 32,52 32,73.865 38.183,96 50,96 61.817,96 68,73.865 68,52 68,30.135 61.817,8 50,8 l 0,0 z"
+       id="path3292"
+       transform="matrix(1.1242248,0,0,1.1242248,229.48762,526.10307)"
+       inkscape:export-filename="/Users/patricka/Desktop/sciencecloudslogo-atom.png"
+       inkscape:export-xdpi="155.49376"
+       inkscape:export-ydpi="155.49376" />
+    <path
+       style="filter:url(#filter3319)"
+       inkscape:connector-curvature="0"
+       d="m 24.385,25.934 c 7.985,0 20.98,5.423 33.828,14.728 17.892,12.96 19.477922,27.080882 14.940922,29.088123 -1.278,1.766 5.597078,8.316877 2.462078,8.316877 -1.064027,0 -2.217015,-0.09626 -3.44676,-0.285139 C 64.170357,76.553284 52.923962,71.405945 41.788,63.34 23.897,50.38 13.069,34.8 17.606,28.537 c 1.279,-1.766 3.642,-2.603 6.779,-2.603 m 0,-4 c -5.733,0 -8.613,2.314 -10.02,4.257 -2.311,3.19 -3.557,9.167 3.636,19.519 4.817,6.932 12.432,14.344 21.439,20.869 11.508555,8.335827 23.529538,13.916116 32.467904,15.202791 1.305154,0.187877 2.544583,0.284209 3.707096,0.284209 5.733,0 -2.695162,-4.501676 -1.289162,-6.443676 2.312,-3.191 -1.062539,-2.601971 1.715098,-13.561937 -0.698255,-1.005191 4.502716,-5.789818 3.69107,-6.810948 C 74.945573,49.227635 68.261962,43.000963 60.56,37.422 47.369,27.868 33.508,21.934 24.385,21.934 z"
+       id="path3294"
+       transform="matrix(1.1242248,0,0,1.1242248,229.48762,526.10307)"
+       sodipodi:nodetypes="cccsscccccccssccsccc"
+       inkscape:export-filename="/Users/patricka/Desktop/sciencecloudslogo-atom.png"
+       inkscape:export-xdpi="155.49376"
+       inkscape:export-ydpi="155.49376" />
+    <path
+       style="filter:url(#filter3319)"
+       inkscape:connector-curvature="0"
+       d="m 75.615,25.934 c 3.137,0 5.5,0.837 6.779,2.603 C 86.931,34.8 76.103,50.38 58.212,63.34 45.365,72.645 32.37,78.065 24.385,78.065 c -3.136,0 -5.501,-0.836 -6.779,-2.602 C 13.069,69.2 23.896,53.62 41.788,40.66 54.635,31.356 67.63,25.934 75.615,25.934 m 0,-4 c -9.123,0 -22.984,5.935 -36.175,15.488 -9.009,6.525 -16.623,13.937 -21.439,20.869 -7.192,10.352 -5.946,16.328 -3.635,19.52 1.405,1.941 4.285,4.255 10.019,4.255 9.124,0 22.985,-5.935 36.175,-15.487 C 69.568,60.054 77.182,52.641 81.999,45.71 89.191,35.358 87.945,29.382 85.634,26.19 84.229,24.248 81.349,21.934 75.615,21.934 l 0,0 z"
+       id="path3296"
+       transform="matrix(1.1242248,0,0,1.1242248,229.48762,526.10307)"
+       inkscape:export-filename="/Users/patricka/Desktop/sciencecloudslogo-atom.png"
+       inkscape:export-xdpi="155.49376"
+       inkscape:export-ydpi="155.49376" />
+    <circle
+       style="filter:url(#filter3319)"
+       d="m 24,42 c 0,3.313708 -2.686292,6 -6,6 -3.313708,0 -6,-2.686292 -6,-6 0,-3.313708 2.686292,-6 6,-6 3.313708,0 6,2.686292 6,6 z"
+       sodipodi:ry="6"
+       sodipodi:rx="6"
+       sodipodi:cy="42"
+       sodipodi:cx="18"
+       cx="18"
+       cy="42"
+       r="6"
+       id="circle3300"
+       transform="matrix(1.1242248,0,0,1.1242248,229.48762,526.10307)"
+       inkscape:export-filename="/Users/patricka/Desktop/sciencecloudslogo-atom.png"
+       inkscape:export-xdpi="155.49376"
+       inkscape:export-ydpi="155.49376" />
+  </g>
+</svg>
