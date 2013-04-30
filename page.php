@@ -4,11 +4,21 @@
         ?>
         <div class="jumbotron masthead">
             <div class="container-fluid">
-                <h1><?php bloginfo('title'); ?></h1>
-
-                <ul id="homepage-header-links">
-                <?php wp_list_pages('sort_column=menu_order&title_li='); ?>
-                </ul>
+                <div class="row-fluid">
+                    <div class="span12">
+                        <h1><?php bloginfo('title'); ?></h1>
+                    </div>
+                </div>
+                <div class="row-fluid" id="sub-header">
+                    <div class="span10">
+                        <ul id="homepage-header-links">
+                            <?php wp_list_pages('sort_column=menu_order&title_li='); ?>
+                        </ul>
+                    </div>
+                    <div id="social-links" class="span2">
+                        <a href="<?php bloginfo('rss2_url'); ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/beakerss.png"></a>
+                    </div>
+                </div>
             </div>
         </div>
         <?php
@@ -24,7 +34,7 @@
 					
 					<article id="post-<?php the_ID(); ?>" <?php post_class('clearfix'); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting">
 
-                        <?php if (single_post_title('', FALSE) != 'Home') {
+                        <?php if (!is_front_page()) {
                         ?>
 						<header>
 							

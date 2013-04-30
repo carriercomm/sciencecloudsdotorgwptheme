@@ -1,4 +1,4 @@
-<!doctype html>  
+<!doctype html>
 
 <!--[if IEMobile 7 ]> <html <?php language_attributes(); ?>class="no-js iem7"> <![endif]-->
 <!--[if lt IE 7 ]> <html <?php language_attributes(); ?> class="no-js ie6"> <![endif]-->
@@ -12,7 +12,7 @@
 		
 		<title>
 			<?php if ( !is_front_page() ) { echo wp_title( ' ', true, 'left' ); echo ' | '; }
-			echo bloginfo( 'name' ); echo ' - '; bloginfo( 'description', 'display' );  ?> 
+			echo bloginfo( 'name' ); echo ' - '; bloginfo( 'description', 'display' );  ?>
 		</title>
 				
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -52,12 +52,12 @@
 		<!-- theme options from options panel -->
 		<?php get_wpbs_theme_options(); ?>
 
-		<?php 
+		<?php
 
 			// check wp user level
-			get_currentuserinfo(); 
+			get_currentuserinfo();
 			// store to use later
-			global $user_level; 
+			global $user_level;
 
 			// get list of post names to use in 'typeahead' plugin for search bar
 			if(of_get_option('search_bar', '1')) { // only do this if we're showing the search bar in the nav
@@ -100,12 +100,21 @@
 							<nav role="navigation">
 								<a class="brand" id="logo" title="<?php echo get_bloginfo('description'); ?>" href="<?php echo home_url(); ?>"><?php bloginfo('name'); ?></a>
 								
-                                <ul class="nav">
-                                <?php wp_list_pages('sort_column=menu_order&title_li='); ?>
-                                </ul>
-								
+
+                                <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </a>
+
 								<div class="nav-collapse">
+                                    <ul class="nav">
+                                    <?php wp_list_pages('sort_column=menu_order&title_li='); ?>
+                                    </ul>
 									<?php bones_main_nav(); // Adjust using Menus in Wordpress Admin ?>
+                                    <div id="social-links-nav">
+                                        <a href="<?php bloginfo('rss2_url'); ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/beakerss.png"></a>
+                                    </div>
 								</div>
 								
 							</nav>

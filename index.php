@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-        <div class="container-fluid">
+        <div id="outer-container" class="container-fluid">
 			
 			<div id="content" class="clearfix row-fluid">
 			

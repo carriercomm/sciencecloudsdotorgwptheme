@@ -1,5 +1,7 @@
 @import "mixins.less";
 
+@logo-url: url(../../images/sciencecloudslogo-atom.png);
+
 @nimbus-dark: #6282AE;
 @nimbus-light: #BAD1F4;
 
@@ -37,7 +39,7 @@ a:focus, a:hover {
     position: relative;
     margin-top: -60px;
     padding-top: 110px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     box-shadow: 0px -1px 0px rgba(0, 0, 0, 0.4) inset, 0px 1px 10px rgba(0, 0, 0, 0.1);
     #gradient > .directional(@primary-dark, @primary-light, 45deg);
 }
@@ -51,11 +53,11 @@ a:focus, a:hover {
     content: '';
     display: block;
     position: absolute;
-    top: 0;
-    right: 0;
+    top: 50px;
+    right: 20px;
     bottom: 0;
     left: 0;
-    background: url(../../images/sciencecloudslogo.png) no-repeat right center;
+    background: @logo-url no-repeat right center;
     background-size: 200px;
     opacity: .4;
 }
@@ -79,6 +81,7 @@ ul#homepage-header-links {
 #homepage-header-links li {
     display: inline;
     margin-right: 15px;
+    list-style-type: none;
 }
 
 #homepage-header-links li a {
@@ -88,12 +91,22 @@ ul#homepage-header-links {
     text-shadow:0px 1px 3px rgba(0, 0, 0, 0.7);
 }
 
-div.navbar-inner {
+.navbar {
+    margin: 0;
+}
+
+.navbar-inner {
     #gradient > .directional(@primary-dark, @primary-light, 45deg);
 }
 
+
 .navbar .brand#logo {
+    text-shadow: 0px 1px 0px rgb(0, 0, 0) !important;
     color: #FFFFFF !important;
+}
+
+.navbar .nav {
+    padding-left: 10px;
 }
 
 .navbar .nav > li > a {
@@ -102,10 +115,14 @@ div.navbar-inner {
     color: #FFFFFF;
 }
 
-
 .navbar .nav > li > a:hover {
     color: #FFFFFF;
     text-decoration: underline;
+}
+
+.btn-navbar {
+    margin: 0;
+    background: @primary-light !important;
 }
 
 .main {
@@ -121,14 +138,58 @@ div.navbar-inner {
     margin-left: 0px;
 }
 
+#recent-posts > h4 > a {
+    color: rgb(51, 51, 51);
+}
+
+#recent-posts > ul {
+    margin-left: 0;
+}
+
+#recent-posts > ul > li {
+    list-style-type: none;
+}
+
+#social-links {
+    text-align: right;
+    margin-top: -10px;
+}
+
+#social-links > a > img {
+    max-width: 35px;
+}
+
+#social-links-nav {
+    text-align: right;
+    padding-top: 3px;
+}
+
+#social-links-nav > a > img {
+    max-width: 32px;
+    opacity: 0.8;
+}
+
 @media (min-width: 768px) and (max-width: 979px) {
     .row {
         margin-left: 0px;
     }
+    body {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    #outer-container {
+        margin-top: 0;
+        padding-top: 20px;
+    }
+
+    .navbar-inner {
+        padding-left: 10px !important;
+        margin-left: 0px;
+    }
 }
 
-/* Phone-specific */
-@media (max-width: 767px) {
+@media (max-width: 768px) {
     body {
         padding-right: 0px;
         padding-left: 0px;
@@ -139,15 +200,64 @@ div.navbar-inner {
         padding-right: 10px;
     }
 
+    #outer-container {
+        padding-top: 40px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .navbar-inner {
+        padding-left: 10px !important;
+    }
+}
+
+
+/* Phone-specific */
+@media (max-width: 480px) {
+    body {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    .jumbotron {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .jumbotron:after {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 110px;
+        right: 10px;
+        bottom: 0;
+        left: 0;
+        background-size: 100px;
+        opacity: .4;
+    }
+
+    .masthead {
+        padding-top: 60px;
+    }
+
     .masthead h1 {
         font-size: 60px;
         line-height: 55px;
         letter-spacing: -2px;
     }
 
+    #sub-header {
+        display: none;
+    }
+
     #outer-container {
+        padding-top: 0px;
         padding-left: 10px;
         padding-right: 10px;
+    }
+
+    #social-links-nav {
+        display: none;
     }
 
     #sidebar1 {
