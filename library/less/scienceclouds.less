@@ -1,6 +1,8 @@
 @import "mixins.less";
 
 @logo-url: url(../../images/sciencecloudslogo-atom.png);
+@header-font: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+@body-font: "Helvetica Neue",Helvetica,Arial,sans-serif;
 
 @nimbus-dark: #6282AE;
 @nimbus-light: #BAD1F4;
@@ -17,14 +19,19 @@
 @red-dark: #c0392b;
 @red-light: #e74c3c;
 
-@primary-dark: @pierre-dark;
+@primary-dark: @nimbus-dark;
 @primary-darker: darken(@primary-dark, 10%);
-@primary-light: @pierre-light;
+@primary-light: @nimbus-light;
 
 @subdued: #AAA;
 
 body {
+    font-family: @header-font;
     font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6, h7 {
+    font-family: @body-font;
 }
 
 a {
@@ -42,6 +49,7 @@ a:focus, a:hover {
     padding-bottom: 10px;
     box-shadow: 0px -1px 0px rgba(0, 0, 0, 0.4) inset, 0px 1px 10px rgba(0, 0, 0, 0.1);
     #gradient > .directional(@primary-dark, @primary-light, 45deg);
+    font-family: @body-font;
 }
 
 .jumbotron .container-fluid {
@@ -92,6 +100,7 @@ ul#homepage-header-links {
 }
 
 .navbar {
+    font-family: @body-font;
     margin: 0;
 }
 

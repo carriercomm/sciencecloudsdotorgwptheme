@@ -15,9 +15,6 @@
                             <?php wp_list_pages('sort_column=menu_order&title_li='); ?>
                         </ul>
                     </div>
-                    <div id="social-links" class="span2">
-                        <a href="<?php bloginfo('rss2_url'); ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/beakerss.png"></a>
-                    </div>
                 </div>
             </div>
         </div>
