@@ -99,7 +99,8 @@
 					<div class="navbar-inner">
 						<div class="container-fluid nav-container">
 							<nav role="navigation">
-								<a class="brand" id="logo" title="<?php echo get_bloginfo('description'); ?>" href="<?php echo home_url(); ?>"><?php bloginfo('name'); ?></a>
+								<a class="brand" id="logo" title="<?php echo get_bloginfo('description'); ?>" href="<?php echo home_url(); ?>"><?php bloginfo('name'); ?>
+                                <img id="logo-img" src="<?php bloginfo('template_directory'); ?>/images/sciencecloudslogo-beaker.png"></a>
 								
 
                                 <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">

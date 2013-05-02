@@ -6,7 +6,8 @@
             <div class="container-fluid">
                 <div class="row-fluid">
                     <div class="span12">
-                        <h1><?php bloginfo('title'); ?></h1>
+                    <h1><?php bloginfo('title'); ?></h1>
+                    <img src="<?php bloginfo('template_directory'); ?>/images/sciencecloudslogo-beaker.png">
                     </div>
                 </div>
                 <div class="row-fluid" id="sub-header">

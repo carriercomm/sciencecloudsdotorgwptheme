@@ -57,19 +57,6 @@ a:focus, a:hover {
     z-index: 2;
 }
 
-.jumbotron:after {
-    content: '';
-    display: block;
-    position: absolute;
-    top: 110px;
-    right: 20px;
-    bottom: 0;
-    left: 0;
-    background: @logo-url no-repeat right center;
-    background-size: 125px;
-    opacity: .4;
-}
-
 
 .masthead h1 {
     color: #FFFFFF;
@@ -79,6 +66,14 @@ a:focus, a:hover {
     letter-spacing: -2px;
     font-weight: bold;
     opacity: .9;
+    float: left;
+}
+
+.masthead img {
+    opacity: .80;
+    width: 90px;
+    margin-left: 40px;
+    margin-top: 10px;
 }
 
 ul#homepage-header-links {
@@ -112,6 +107,14 @@ ul#homepage-header-links {
 .navbar .brand#logo {
     text-shadow: 0px 1px 0px rgb(0, 0, 0) !important;
     color: #FFFFFF !important;
+}
+
+.navbar #logo-img {
+    opacity: .80;
+    width: 18px;
+    margin-top: -4px;
+    margin-left: 3px;
+    margin-right: -15px;
 }
 
 .navbar .nav {
@@ -197,6 +200,10 @@ ul#homepage-header-links {
         padding-top: 20px;
     }
 
+    .jumbotron {
+        white-space:nowrap;
+    }
+
     .navbar-inner {
         padding-left: 10px !important;
         margin-left: 0px;
@@ -212,6 +219,23 @@ ul#homepage-header-links {
     .jumbotron {
         padding-left: 10px;
         padding-right: 10px;
+    }
+
+    .jumbotron:after {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 80px;
+        right: 10px;
+        bottom: 0;
+        left: 0;
+        background: url(../../images/sciencecloudslogo-beaker.png) no-repeat right center;
+        background-size: 90px;
+        opacity: .8;
+    }
+
+    .masthead img {
+        display: none;
     }
 
     #outer-container {
@@ -246,8 +270,13 @@ ul#homepage-header-links {
         right: 10px;
         bottom: 0;
         left: 0;
+        background: url(../../images/sciencecloudslogo-beaker.png) no-repeat right center;
         background-size: 70px;
-        opacity: .4;
+        opacity: .6;
+    }
+
+    .masthead img {
+        display: none;
     }
 
     .masthead {
