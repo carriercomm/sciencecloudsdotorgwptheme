@@ -171,6 +171,19 @@ ul#homepage-header-links {
   max-width: 32px;
   opacity: 0.8;
 }
+.post_content h2 {
+  margin-top: 40px;
+}
+.post_content h4 {
+  margin-top: 30px;
+}
+.post_content,
+.post_content li {
+  line-height: 24px;
+}
+.post_content p {
+  margin-bottom: 20px;
+}
 @media (min-width: 768px) and (max-width: 979px) {
   .row {
     margin-left: 0px;
