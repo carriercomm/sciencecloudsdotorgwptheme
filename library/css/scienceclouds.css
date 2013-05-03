@@ -70,7 +70,7 @@ a:hover {
   color: #FFFFFF;
   text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.7);
   font-size: 90px;
-  line-height: 120px;
+  line-height: 80px;
   letter-spacing: -2px;
   font-weight: bold;
   opacity: .9;
@@ -78,9 +78,9 @@ a:hover {
 }
 .masthead img {
   opacity: .80;
-  width: 90px;
-  margin-left: 40px;
-  margin-top: 10px;
+  width: 120px;
+  margin-left: 0px;
+  margin-top: 35px;
 }
 ul#homepage-header-links {
   margin: 0;
@@ -200,10 +200,9 @@ ul#homepage-header-links {
   body {
     padding-right: 0px;
     padding-left: 0px;
-    padding-top: 100px;
   }
   #outer-container {
-    padding-top: 20px;
+    padding-top: 80px;
   }
   .jumbotron {
     white-space: nowrap;
@@ -223,21 +222,9 @@ ul#homepage-header-links {
     padding-left: 10px;
     padding-right: 10px;
   }
-  .jumbotron:after {
-    content: '';
-    display: block;
-    position: absolute;
-    top: 80px;
-    right: 10px;
-    bottom: 0;
-    left: 0;
-    background: url(../../images/sciencecloudslogo-beaker.png) no-repeat right center;
-    background-size: 90px;
-    opacity: .8;
-  }
-  .masthead img {
-    display: none;
-  }
+  /*.masthead img {
+          display: none;
+      }*/
   #outer-container {
     padding-top: 70px;
     padding-left: 10px;
@@ -257,20 +244,11 @@ ul#homepage-header-links {
     padding-left: 10px;
     padding-right: 10px;
   }
-  .jumbotron:after {
-    content: '';
-    display: block;
-    position: absolute;
-    top: 80px;
-    right: 10px;
-    bottom: 0;
-    left: 0;
-    background: url(../../images/sciencecloudslogo-beaker.png) no-repeat right center;
-    background-size: 70px;
-    opacity: .6;
-  }
   .masthead img {
-    display: none;
+    opacity: .80;
+    width: 85px;
+    margin-left: 0px;
+    margin-top: 25px;
   }
   .masthead {
     padding-top: 60px;
