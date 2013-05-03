@@ -152,7 +152,7 @@ ul#homepage-header-links {
 .row {
   margin-left: 0px;
 }
-#recent-posts {
+#recent-posts h4 {
   white-space: nowrap;
 }
 #recent-posts > h4 > a {
@@ -163,6 +163,7 @@ ul#homepage-header-links {
 }
 #recent-posts > ul > li {
   list-style-type: none;
+  padding-bottom: 15px;
 }
 #social-links {
   text-align: right;
