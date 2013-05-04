@@ -49,7 +49,7 @@ a:focus, a:hover {
 .jumbotron {
     position: relative;
     margin-top: -60px;
-    padding-top: 110px;
+    padding-top: 60px;
     padding-bottom: 10px;
     box-shadow: 0px -1px 0px rgba(0, 0, 0, 0.4) inset, 0px 1px 10px rgba(0, 0, 0, 0.1);
     #gradient > .directional(@primary-dark, @primary-light, 45deg);
@@ -71,10 +71,11 @@ a:focus, a:hover {
     font-weight: bold;
     opacity: .9;
     float: left;
+    padding-bottom: 30px;
 }
 
 .masthead img {
-    opacity: .80;
+    opacity: .90;
     width: 120px;
     margin-left: 0px;
     margin-top: 35px;
@@ -116,7 +117,7 @@ ul#homepage-header-links {
 }
 
 .navbar #logo-img {
-    opacity: .80;
+    opacity: .90;
     width: 48px;
     margin-top: -32px;
     margin-left: 3px;
@@ -160,19 +161,19 @@ ul#homepage-header-links {
     margin-left: 0px;
 }
 
-#recent-posts h4 {
+.sidebar h4 {
     white-space:nowrap;
 }
 
-#recent-posts > h4 > a {
+.sidebar h4 a {
     color: rgb(51, 51, 51);
 }
 
-#recent-posts > ul {
+.sidebar ul {
     margin-left: 0;
 }
 
-#recent-posts > ul > li {
+.sidebar ul li {
     list-style-type: none;
     padding-bottom: 15px;
 }
@@ -218,13 +219,14 @@ ul#homepage-header-links {
         margin-left: 0px;
     }
     body {
+        padding-top: 60px;
         padding-right: 0px;
         padding-left: 0px;
     }
 
     #outer-container {
         //margin-top: 0;
-        padding-top: 80px;
+        //padding-top: 80px;
     }
 
     .jumbotron {
@@ -232,12 +234,53 @@ ul#homepage-header-links {
     }
 
     .navbar-inner {
-        padding-left: 10px !important;
+        //padding-left: 10px !important;
         margin-left: 0px;
     }
+
+    .nav-container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
 }
 
 @media (max-width: 768px) {
+    body {
+        padding-right: 0px;
+        padding-left: 0px;
+        padding-top: 60px;
+    }
+
+    .jumbotron {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    /*.masthead img {
+        display: none;
+    }*/
+
+    #outer-container {
+        padding-top: 40px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .navbar-inner {
+        //padding-left: 10px !important;
+    }
+
+    .nav-container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+}
+
+
+/* Phone-specific */
+@media (max-width: 480px) {
     body {
         padding-right: 0px;
         padding-left: 0px;
@@ -249,36 +292,8 @@ ul#homepage-header-links {
         padding-right: 10px;
     }
 
-    /*.masthead img {
-        display: none;
-    }*/
-
-    #outer-container {
-        padding-top: 70px;
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-
-    .navbar-inner {
-        padding-left: 10px !important;
-    }
-}
-
-
-/* Phone-specific */
-@media (max-width: 480px) {
-    body {
-        padding-right: 0px;
-        padding-left: 0px;
-    }
-
-    .jumbotron {
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-
     .masthead img {
-        opacity: .80;
+        opacity: .90;
         width: 85px;
         margin-left: 0px;
         margin-top: 25px;

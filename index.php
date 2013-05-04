@@ -25,7 +25,7 @@
 						
 						<footer>
 			
-							<p class="tags"><?php the_tags('<span class="tags-title">' . __("Tags","bonestheme") . ':</span> ', ' ', ''); ?></p>
+							<p class="tags"><?php the_tags('<span class="tags-title">' . __("","bonestheme") . '</span> ', ' ', ''); ?></p>
 							
 						</footer> <!-- end article footer -->
 					
@@ -63,7 +63,7 @@
 			
 				</div> <!-- end #main -->
     
-				<!--<?php get_sidebar(); // sidebar 1 ?>-->
+				<?php get_sidebar(); // sidebar 1 ?>
     
 			</div> <!-- end #content -->
 
