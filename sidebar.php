@@ -2,9 +2,13 @@
                     <div id="recent-posts">
                         <h4>
                         <a href="<?php echo get_permalink(get_page_by_title('Blog')); ?>">Featured</a>
+                        <?php if (is_front_page()) { ?>
                         <span id="social-links">
                             <a href="<?php bloginfo('rss2_url'); ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/beakerss.png"></a>
                         </span>
+                        <?php
+                        }
+                        ?>
                         </h4>
                         <ul>
                             <?php

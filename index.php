@@ -62,6 +62,8 @@
 					<?php endif; ?>
 			
 				</div> <!-- end #main -->
+                <div class="span2">
+                </div>
     
 				<?php get_sidebar(); // sidebar 1 ?>
     

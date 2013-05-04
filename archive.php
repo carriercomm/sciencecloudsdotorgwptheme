@@ -1,4 +1,5 @@
 <?php get_header(); ?>
+        <div id="outer-container" class="container-fluid">
 			
 			<div id="content" class="clearfix row-fluid">
 			
@@ -89,7 +90,9 @@
 					
 					<?php endif; ?>
 			
-				</div> <!-- end #main -->
+                </div> <!-- end #main -->
+                <div class="span2">
+                </div>
     
 				<?php get_sidebar(); // sidebar 1 ?>
     
