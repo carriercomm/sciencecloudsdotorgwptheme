@@ -111,7 +111,7 @@
 
 								<div class="nav-collapse">
                                     <ul class="nav">
-                                    <?php wp_list_pages('sort_column=menu_order&title_li='); ?>
+                                    <?php wp_list_pages('sort_column=menu_order&depth=1&title_li='); ?>
                                     </ul>
 									<?php bones_main_nav(); // Adjust using Menus in Wordpress Admin ?>
                                     <div id="social-links-nav">
