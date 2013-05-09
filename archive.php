@@ -7,29 +7,29 @@
 				
 					<div class="page-header">
 					<?php if (is_category()) { ?>
-						<h1 class="archive_title h2">
+						<h2 class="archive_title h2">
 							<span><?php _e("Posts Categorized:", "bonestheme"); ?></span> <?php single_cat_title(); ?>
-						</h1>
+						</h2>
 					<?php } elseif (is_tag()) { ?> 
-						<h1 class="archive_title h2">
+						<h2 class="archive_title h2">
 							<span><?php _e("Posts Tagged:", "bonestheme"); ?></span> <?php single_tag_title(); ?>
-						</h1>
+						</h2>
 					<?php } elseif (is_author()) { ?>
-						<h1 class="archive_title h2">
+						<h2 class="archive_title h2">
 							<span><?php _e("Posts By:", "bonestheme"); ?></span> <?php get_the_author_meta('display_name'); ?>
-						</h1>
+						</h2>
 					<?php } elseif (is_day()) { ?>
-						<h1 class="archive_title h2">
+						<h2 class="archive_title h2">
 							<span><?php _e("Daily Archives:", "bonestheme"); ?></span> <?php the_time('l, F j, Y'); ?>
-						</h1>
+						</h2>
 					<?php } elseif (is_month()) { ?>
-					    <h1 class="archive_title h2">
+					    <h2 class="archive_title h2">
 					    	<span><?php _e("Monthly Archives:", "bonestheme"); ?>:</span> <?php the_time('F Y'); ?>
-					    </h1>
+					    </h2>
 					<?php } elseif (is_year()) { ?>
-					    <h1 class="archive_title h2">
+					    <h2 class="archive_title h2">
 					    	<span><?php _e("Yearly Archives:", "bonestheme"); ?>:</span> <?php the_time('Y'); ?>
-					    </h1>
+					    </h2>
 					<?php } ?>
 					</div>
 
@@ -41,7 +41,7 @@
 							
 							<h3 class="h2"><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h3>
 							
-							<p class="meta"><?php _e("Posted", "bonestheme"); ?> <time datetime="<?php echo the_time('Y-m-j'); ?>" pubdate><?php the_date(); ?></time> <?php _e("by", "bonestheme"); ?> <?php the_author_posts_link(); ?> <span class="amp">&</span> <?php _e("filed under", "bonestheme"); ?> <?php the_category(', '); ?>.</p>
+							<p class="meta"><?php _e("Posted", "bonestheme"); ?> <time datetime="<?php echo the_time('Y-m-j'); ?>" pubdate><?php the_date(); ?></time> <?php _e("by", "bonestheme"); ?> <?php the_author_posts_link(); ?> in <?php the_category(', '); ?>.</p>
 						
 						</header> <!-- end article header -->
 					

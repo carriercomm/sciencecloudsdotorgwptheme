@@ -1,4 +1,5 @@
 <?php get_header(); ?>
+        <div id="outer-container" class="container-fluid">
 			
 			<div id="content" class="clearfix row-fluid">
 			
@@ -67,5 +68,6 @@
     			<?php get_sidebar(); // sidebar 1 ?>
     
 			</div> <!-- end #content -->
+        </div>
 
 <?php get_footer(); ?>
